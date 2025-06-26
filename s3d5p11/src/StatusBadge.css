@@ -1,0 +1,21 @@
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+}
+
+.success {
+  background-color: #4caf50; /* green */
+}
+
+.error {
+  background-color: #f44336; /* red */
+}
+
+.warning {
+  background-color: #ff9800; /* orange */
+}
