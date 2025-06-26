@@ -6,15 +6,15 @@ function ProductCard({
   price = 1099,
   description = "Latest model with improved battery life."
 }) {
-  // Inline style object
+  // Inline style for the card container
   const cardStyle = {
     border: '1px solid #222',
-    borderRadius: '10px',
-    padding: '20px',
-    margin: '16px auto',
+    borderRadius: '12px',
+    padding: '24px',
+    margin: '24px auto',
     maxWidth: '350px',
-    boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
-    backgroundColor: "#fff"
+    backgroundColor: '#fff',
+    boxShadow: '0 2px 8px rgba(0,0,0,0.08)'
   };
 
   return (
